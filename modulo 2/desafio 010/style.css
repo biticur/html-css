@@ -1,0 +1,39 @@
+@font-face {
+        font-family: 'idroid';
+        src: url('fontes/idroid.otf') format('opentype');
+}
+
+body {
+    background-color: #E7E5C1;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+h1 {
+    text-align: center;
+}
+
+#introducao {
+    text-align: center;
+}
+
+main {
+    background-color: white;
+    width: 1200px;
+    margin: auto;
+    box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.329);
+}
+
+.subtitulo {
+    font-family: idroid;
+    background-image: linear-gradient(to right, #81E2AD, transparent);
+}
+
+.linkExterno {
+    color: black;
+    text-decoration: none;
+}
+
+.linkExterno::after {
+    content: '🔗';
+}
