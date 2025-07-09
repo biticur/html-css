@@ -9,8 +9,28 @@ body {
     text-align: justify;
 }
 
+header {
+    color: white;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.397);
+    background-image: linear-gradient(to bottom, #229151, #08321B);
+    margin: auto;
+}
+
 h1 {
     text-align: center;
+}
+
+span:hover > .abas{
+    background-color: #2A995A;
+    color: transparent;
+    border-radius: 5px;
+}
+
+.abas {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin: 3px 3px;
 }
 
 #introducao {
@@ -19,9 +39,13 @@ h1 {
 
 main {
     background-color: white;
-    width: 1200px;
+    width: 1100px;
     margin: auto;
     box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.329);
+}
+
+p {
+    margin: 0px 20px;
 }
 
 .subtitulo {
@@ -30,8 +54,10 @@ main {
 }
 
 .linkExterno {
-    color: black;
+    color: #004312;
     text-decoration: none;
+    font-weight: bold;
+    background-color: #89DDAC;
 }
 
 .linkExterno::after {
